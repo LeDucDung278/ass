@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="app" class="tw-w-full tw-font-sans">
+      <!-- <header class="tw-bg-gray-300">
+          <div class="header_top tw-grid tw-grid-cols-2 tw-gap-6 tw-max-w-6xl tw-mx-auto tw-py-2">
+              <div class="header_top_left">
+                  <ul class="tw-my-0">
+                      <li class="tw-inline-block tw-mr-9"><i class="fa fa-envelope tw-mr-2"></i>dungcon27@gmail.com</li>
+                      <li class="tw-inline-block"><i class="fas fa-phone-alt tw-mr-2 bg"></i>0327.025.224</li>
+                  </ul>
+              </div>
+
+              <div class="header_top_right tw-text-right">
+                  <div class="header_top_right_social tw-inline-block tw-mr-7">
+                      <a href="#" class="tw-inline-block tw-mr-2 tw-text-black"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#" class="tw-inline-block tw-mr-2 tw-text-black"><i class="fab fa-twitter"></i></a>
+                      <a href="#" class="tw-inline-block tw-mr-2 tw-text-black"><i class="fab fa-linkedin-in"></i></a>
+                      <a href="#" class="tw-inline-block tw-mr-2 tw-text-black"><i class="fab fa-pinterest-p"></i></a>
+                  </div>
+                  <div class="header_top_right_language tw-inline-block tw-mr-7">
+                      <img src="./src/img/Untitled-1.png" alt="" class="tw-inline-block tw-mr-1">
+                      <div class="tw-mr-1 tw-inline-block">Vietnamese</div>
+                      <span class="fas fa-angle-down"></span>
+                      <ul>
+                          <li><a href="#">Spanis</a></li>
+                          <li><a href="#">English</a></li>
+                      </ul>
+                  </div>
+                  <div class="header_top_right_auth tw-inline-block tw-mr-7">
+                      <a href="#" class="hover:tw-text-black tw-text-black tw-no-underline"><i class="fa fa-user tw-mr-2 hover:tw-text-orange-700"></i>Sign In</a>
+                  </div>
+              </div>
+          </div>
+          <div class="header_bottom tw-bg-white tw-grid tw-grid-cols-4 tw-gap-2">
+              <div class="header__logo tw-flex tw-justify-center">
+                  <a href="./index.html"><img src="./src/img/logo.png" alt=""></a>
+              </div>
+              <div class="header__search tw-col-span-2 tw-flex tw-justify-center tw-items-center">
+                      <div class="tw-w-9/12">
+                          <form>
+                              <div class="input-group tw-relative tw-flex tw-items-stretch tw-w-full">
+                                  <input type="search" class="form-control tw-relative tw-flex-auto tw-min-w-0 tw-block tw-w-full tw-px-3 tw-py-1.5 tw-text-base tw-font-normal tw-text-gray-700 tw-bg-white tw-bg-clip-padding tw-border tw-border-solid tw-border-gray-300 tw-rounded tw-transition tw-ease-in-out tw-m-0 focus:tw-text-gray-700 focus:tw-bg-white focus:tw-border-black focus:tw-outline-none" placeholder="Search" aria-label="Search" aria-describedby="button-addon2">
+                                  <button class="btn tw-inline-block tw-px-6 tw-py-2.5 bg-stone-800 tw-text-white tw-font-medium tw-text-xs tw-leading-tight tw-uppercase tw-rounded tw-shadow-md hover:bg-stone-600 hover:tw-shadow-lg focus:tw-bg-blue-700  focus:tw-shadow-lg focus:tw-outline-none focus:tw-ring-0 active:tw-bg-blue-800 active:tw-shadow-lg tw-transition tw-duration-150 tw-ease-in-out tw-flex tw-items-center" type="button" id="button-addon2">
+                                      <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="tw-w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                          <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
+                                      </svg>
+                                  </button>
+                              </div>
+                          </form>
+                      </div>
+              </div>
+              <div class="header__cart tw-flex tw-justify-center tw-items-center ">
+                  <div class="tw-text-right tw-inline-block">
+                      <ul class="tw-inline-block tw-mr-3">
+                          <li class="tw-inline-block tw-mr-1.5"><a href="#" class="tw-text-black hover:tw-text-orange-700"><i class="fa fa-heart tw-text-xl"></i> <span>1</span></a></li>
+                          <li class="tw-inline-block"><a href="#" class="tw-text-black hover:tw-text-orange-700"><i class="fa fa-shopping-bag tw-text-xl"></i> <span>3</span></a></li>
+                      </ul>
+                      <div class="header__cart__price tw-inline-block">Total: <span class="tw-font-semibold">150.000.000</span></div>
+                  </div>
+              </div>
+          </div>
+      </header>
+      <nav class="tw-flex tw-justify-center tw-items-center tw-bg-neutral-900 ">
+          <div class="tw-hidden tw-justify-between tw-items-center tw-w-full md:tw-flex md:tw-w-auto md:tw-order-1 " id="mobile-menu-2">
+              <ul class="tw-flex tw-flex-col tw-my-0 md:tw-flex-row md:tw-space-x-8 md:tw-mt-0 md:tw-text-sm md:tw-font-medium">
+                <li>
+                  <a href="#" class="tw-uppercase tw-block tw-p-3 tw-text-orange-700 hover:tw-bg-white hover:tw-text-orange-700" aria-current="page">Trang chủ</a>
+                </li>
+                <li>
+                  <a href="#" class="tw-uppercase tw-block tw-p-3 tw-text-white dark:tw-border-gray-700 hover:tw-bg-white hover:tw-text-orange-700">GIỚI THIỆU</a>
+                </li>
+                <li>
+                  <a href="#" class="tw-uppercase tw-block tw-p-3 tw-text-white dark:tw-border-gray-700 hover:tw-bg-white hover:tw-text-orange-700">đồng hồ nam</a>
+                </li>
+                <li>
+                  <a href="#" class="tw-uppercase tw-block tw-p-3 tw-text-white dark:tw-border-gray-700 hover:tw-bg-white hover:tw-text-orange-700">đồng hồ nữ</a>
+                </li>
+                <li>
+                  <a href="#" class="tw-uppercase tw-block tw-p-3 tw-text-white dark:tw-border-gray-700 hover:tw-bg-white hover:tw-text-orange-700">Blog</a>
+                </li>
+                <li>
+                  <a href="#" class="tw-uppercase tw-block tw-p-3 tw-text-white dark:tw-border-gray-700 hover:tw-bg-white hover:tw-text-orange-700">liên hệ</a>
+                </li>
+              </ul>
+            </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide tw-mt-px" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./src/img/banner1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./src/img/banner2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./src/img/banner3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div> 
+      <main class="tw-mb-4">
+        <div class="products">
+          <div class="product__good tw-mx-auto container mt-3">
+            <h2 class="tw-font-bold tw-text-3xl">Sản phẩm bán chạy</h2>
+            <div class="product__good-list">
+              <div class="tw-mt-6 tw-grid tw-grid-cols-4 tw-gap-2">
+                <div class="group tw-relative">
+                  <div class="tw-w-full min-h-80 tw-bg-gray-200 aspect-w-1 aspect-h-1 tw-rounded-md tw-overflow-hidden">
+                    <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="tw-w-full tw-h-full tw-object-center tw-object-cover lg:tw-w-full lg:tw-h-full hover:tw-opacity-75">
+                  </div>
+                  <div class="tw-flex tw-justify-center">
+                    <div class="text-center">
+                      <h3 class="tw-text-sm tw-text-gray-700 tw-mb-0">
+                        <a href="#">
+                          <span aria-hidden="true" class="tw-absolute tw-inset-0"></span>
+                          Basic Tee
+                        </a>
+                      </h3>
+                      <p class="tw-text-sm tw-text-gray-500">Black</p>
+                      <button class="tw-bg-blue-500 hover:tw-bg-red-500 tw-text-white tw-font-bold tw-py-0.5 tw-px-5 tw-border tw-border-blue-700 tw-rounded">
+                        Thêm vào giỏ
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="group tw-relative">
+                    <div class="tw-w-full min-h-80 tw-bg-gray-200 aspect-w-1 aspect-h-1 tw-rounded-md tw-overflow-hidden">
+                      <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="tw-w-full tw-h-full tw-object-center tw-object-cover lg:tw-w-full lg:tw-h-full hover:tw-opacity-75">
+                    </div>
+                    <div class="tw-flex tw-justify-center">
+                      <div class="text-center">
+                        <h3 class="tw-text-sm tw-text-gray-700 tw-mb-0">
+                          <a href="#">
+                            <span aria-hidden="true" class="tw-absolute tw-inset-0"></span>
+                            Basic Tee
+                          </a>
+                        </h3>
+                        <p class="tw-text-sm tw-text-gray-500">Black</p>
+                        <button class="tw-bg-blue-500 hover:tw-bg-red-500 tw-text-white tw-font-bold tw-py-0.5 tw-px-5 tw-border tw-border-blue-700 tw-rounded">
+                          Thêm vào giỏ
+                        </button>
+                      </div>
+                    </div>
+                </div>
+                <div class="group tw-relative">
+                <div class="tw-w-full min-h-80 tw-bg-gray-200 aspect-w-1 aspect-h-1 tw-rounded-md tw-overflow-hidden">
+                    <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="tw-w-full tw-h-full tw-object-center tw-object-cover lg:tw-w-full lg:tw-h-full hover:tw-opacity-75">
+                </div>
+                <div class="tw-flex tw-justify-center">
+                    <div class="text-center">
+                    <h3 class="tw-text-sm tw-text-gray-700 tw-mb-0">
+                        <a href="#">
+                        <span aria-hidden="true" class="tw-absolute tw-inset-0"></span>
+                        Basic Tee
+                        </a>
+                    </h3>
+                    <p class="tw-text-sm tw-text-gray-500">Black</p>
+                    <button class="tw-bg-blue-500 hover:tw-bg-red-500 tw-text-white tw-font-bold tw-py-0.5 tw-px-5 tw-border tw-border-blue-700 tw-rounded">
+                        Thêm vào giỏ
+                    </button>
+                    </div>
+                </div>
+                </div>
+                <div class="group tw-relative">
+                <div class="tw-w-full min-h-80 tw-bg-gray-200 aspect-w-1 aspect-h-1 tw-rounded-md tw-overflow-hidden">
+                    <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="tw-w-full tw-h-full tw-object-center tw-object-cover lg:tw-w-full lg:tw-h-full hover:tw-opacity-75">
+                </div>
+                <div class="tw-flex tw-justify-center">
+                    <div class="text-center">
+                    <h3 class="tw-text-sm tw-text-gray-700 tw-mb-0">
+                        <a href="#">
+                        <span aria-hidden="true" class="tw-absolute tw-inset-0"></span>
+                        Basic Tee
+                        </a>
+                    </h3>
+                    <p class="tw-text-sm tw-text-gray-500">Black</p>
+                    <button class="tw-bg-blue-500 hover:tw-bg-red-500 tw-text-white tw-font-bold tw-py-0.5 tw-px-5 tw-border tw-border-blue-700 tw-rounded">
+                        Thêm vào giỏ
+                    </button>
+                    </div>
+                </div>
+                </div>
+                <div class="group tw-relative">
+                    <div class="tw-w-full min-h-80 tw-bg-gray-200 aspect-w-1 aspect-h-1 tw-rounded-md tw-overflow-hidden">
+                      <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="tw-w-full tw-h-full tw-object-center tw-object-cover lg:tw-w-full lg:tw-h-full hover:tw-opacity-75">
+                    </div>
+                    <div class="tw-flex tw-justify-center">
+                      <div class="text-center">
+                        <h3 class="tw-text-sm tw-text-gray-700 tw-mb-0">
+                          <a href="#">
+                            <span aria-hidden="true" class="tw-absolute tw-inset-0"></span>
+                            Basic Tee
+                          </a>
+                        </h3>
+                        <p class="tw-text-sm tw-text-gray-500">Black</p>
+                        <button class="tw-bg-blue-500 hover:tw-bg-red-500 tw-text-white tw-font-bold tw-py-0.5 tw-px-5 tw-border tw-border-blue-700 tw-rounded">
+                          Thêm vào giỏ
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="group tw-relative">
+                      <div class="tw-w-full min-h-80 tw-bg-gray-200 aspect-w-1 aspect-h-1 tw-rounded-md tw-overflow-hidden">
+                        <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="tw-w-full tw-h-full tw-object-center tw-object-cover lg:tw-w-full lg:tw-h-full hover:tw-opacity-75">
+                      </div>
+                      <div class="tw-flex tw-justify-center">
+                        <div class="text-center">
+                          <h3 class="tw-text-sm tw-text-gray-700 tw-mb-0">
+                            <a href="#">
+                              <span aria-hidden="true" class="tw-absolute tw-inset-0"></span>
+                              Basic Tee
+                            </a>
+                          </h3>
+                          <p class="tw-text-sm tw-text-gray-500">Black</p>
+                          <button class="tw-bg-blue-500 hover:tw-bg-red-500 tw-text-white tw-font-bold tw-py-0.5 tw-px-5 tw-border tw-border-blue-700 tw-rounded">
+                            Thêm vào giỏ
+                          </button>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="group tw-relative">
+                  <div class="tw-w-full min-h-80 tw-bg-gray-200 aspect-w-1 aspect-h-1 tw-rounded-md tw-overflow-hidden">
+                      <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="tw-w-full tw-h-full tw-object-center tw-object-cover lg:tw-w-full lg:tw-h-full hover:tw-opacity-75">
+                  </div>
+                  <div class="tw-flex tw-justify-center">
+                      <div class="text-center">
+                      <h3 class="tw-text-sm tw-text-gray-700 tw-mb-0">
+                          <a href="#">
+                          <span aria-hidden="true" class="tw-absolute tw-inset-0"></span>
+                          Basic Tee
+                          </a>
+                      </h3>
+                      <p class="tw-text-sm tw-text-gray-500">Black</p>
+                      <button class="tw-bg-blue-500 hover:tw-bg-red-500 tw-text-white tw-font-bold tw-py-0.5 tw-px-5 tw-border tw-border-blue-700 tw-rounded">
+                          Thêm vào giỏ
+                      </button>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="group tw-relative">
+                  <div class="tw-w-full min-h-80 tw-bg-gray-200 aspect-w-1 aspect-h-1 tw-rounded-md tw-overflow-hidden">
+                      <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg" alt="Front of men&#039;s Basic Tee in black." class="tw-w-full tw-h-full tw-object-center tw-object-cover lg:tw-w-full lg:tw-h-full hover:tw-opacity-75">
+                  </div>
+                  <div class="tw-flex tw-justify-center">
+                      <div class="text-center">
+                      <h3 class="tw-text-sm tw-text-gray-700 tw-mb-0">
+                          <a href="#">
+                          <span aria-hidden="true" class="tw-absolute tw-inset-0"></span>
+                          Basic Tee
+                          </a>
+                      </h3>
+                      <p class="tw-text-sm tw-text-gray-500">Black</p>
+                      <button class="tw-bg-blue-500 hover:tw-bg-red-500 tw-text-white tw-font-bold tw-py-0.5 tw-px-5 tw-border tw-border-blue-700 tw-rounded">
+                          Thêm vào giỏ
+                      </button>
+                      </div>
+                  </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="tw-border-t tw-border-gray-200 tw-bg-black">
+        <div class="tw-text-white container tw-flex tw-flex-col tw-flex-wrap tw-px-4 tw-mx-auto md:tw-items-center lg:tw-items-start md:tw-flex-row md:tw-flex-nowrap">
+            <div class="tw-flex-shrink-0 tw-w-64 tw-mx-auto tw-text-center md:tw-mx-0 md:tw-text-left tw-mt-4">
+                <h2 class="tw-mb-2 tw-font-bold tw-text-2xl tw-pl-7">
+                    Thông tin liên hệ
+                  </h2>
+                  <ul class="tw-mb-8 tw-space-y-2 tw-text-sm tw-list-none">
+                        <li class="tw-flex cursor-pointer">
+                            <svg class="tw-h-6 tw-w-6 tw-text-white tw-mr-2"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />  <circle cx="12" cy="10" r="3" /></svg>
+                            <a class="tw-text-white hover:tw-text-orange-700 tw-no-underline tw-cursor-pointer">30 Phạm Văn Đông, Mai Dịch, Cầu Giấy, Hà Nội</a>
+                        </li>
+                        <li class="tw-flex cursor-pointer">
+                            <svg class="tw-h-6 tw-w-6 text-white tw-mr-2"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <rect x="5" y="2" width="14" height="20" rx="2" ry="2" />  <line x1="12" y1="18" x2="12.01" y2="18" /></svg>
+                            <a class="tw-text-white hover:tw-text-orange-700 tw-no-underline tw-cursor-pointer">0327-025-224</a>
+                        </li>
+                        <li class="tw-flex cursor-pointer">
+                            <svg class="tw-mr-2" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                            width="24" height="24"
+                            viewBox="0 0 172 172"
+                            style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M51.95833,28.66667c-6.86192,0 -12.54167,5.67975 -12.54167,12.54167v7.10368l-17.1958,10.2321c-4.88354,2.90329 -7.88753,8.17975 -7.88753,13.85742v54.8068c0,12.79944 10.49222,23.29167 23.29167,23.29167h96.75c12.79944,0 23.29167,-10.49222 23.29167,-23.29167v-54.79981c0,-5.68105 -3.00259,-10.95427 -7.88053,-13.85742c-0.00233,-0.00233 -0.00466,-0.00467 -0.007,-0.007l-17.1958,-10.2251v-7.11068c0,-6.86192 -5.67974,-12.54167 -12.54167,-12.54167zM51.95833,39.41667h68.08333c1.05724,0 1.79167,0.73442 1.79167,1.79167v41.08936l-35.83333,17.43376l-35.83333,-17.43376v-30.0944c0.09479,-0.57703 0.09479,-1.16565 0,-1.74268v-9.25228c0,-1.05724 0.73442,-1.79167 1.79167,-1.79167zM39.41667,60.82568v16.24398l-13.87142,-6.74674c0.43893,-1.03685 1.16357,-1.94244 2.1696,-2.54053zM132.58333,60.83268l11.70182,6.95671c1.00041,0.59706 1.72211,1.50009 2.1626,2.53353l-13.86442,6.74674zM25.08333,82.05274l58.5651,28.4917c1.48454,0.72219 3.21859,0.72219 4.70313,0l58.5651,-28.4917v45.1556c0,6.98772 -5.55394,12.54167 -12.54167,12.54167h-96.75c-6.98772,0 -12.54167,-5.55394 -12.54167,-12.54167z"></path></g></g></svg>
+                            <a class="tw-text-white hover:tw-text-orange-700 tw-no-underline tw-cursor-pointer">vina@dongho.vn</a>
+                        </li>
+                  </ul>
+            </div>
+          <div class="tw-justify-between tw-w-full tw-mt-4 lg:tw-flex">
+            <div class="tw-w-full tw-px-4 lg:tw-w-1/3 md:tw-w-1/2">
+              <h2 class="tw-mb-2 tw-font-bold tw-text-2xl tw-text-white tw-pl-7">
+                Liên kết
+              </h2>
+              <ul class="tw-mb-8 tw-space-y-2 tw-text-sm tw-list-none">
+                <li class="tw-cursor-pointer">
+                  <a class="tw-text-white hover:tw-text-orange-700 tw-no-underline">Giới thiệu</a>
+                </li>
+                <li class="tw-cursor-pointer">
+                  <a class="tw-text-white hover:tw-text-orange-700 tw-no-underline">Đồng hồ nam</a>
+                </li>
+                <li class="tw-cursor-pointer">
+                  <a class="tw-text-white hover:tw-text-orange-700 tw-no-underline">Đồng hồ nữ</a>
+                </li>
+                <li class="tw-cursor-pointer">
+                  <a class="tw-text-white hover:tw-text-orange-700 tw-no-underline">Blogs</a>
+                </li>
+                <li class="tw-cursor-pointer">
+                  <a class="tw-text-white hover:tw-text-orange-700 tw-no-underline">Liên hệ</a>
+                </li>
+              </ul>
+            </div>
+            <div class="tw-w-full tw-px-4 lg:tw-w-1/3 md:tw-w-1/2">
+              <h2 class="tw-mb-2 tw-font-bold tw-text-2xl tw-text-white tw-pl-7">
+                Hỗ trợ
+              </h2>
+              <ul class="tw-mb-8 tw-space-y-2 tw-text-sm tw-list-none">
+                <li class="tw-cursor-pointer">
+                  <a class="tw-text-white hover:tw-text-orange-700 tw-no-underline">Hướng dẫn mua hàng</a>
+                </li>
+                <li class="tw-cursor-pointer">
+                  <a class="tw-text-white hover:tw-text-orange-700 tw-no-underline">Hướng dẫn thanh toán</a>
+                </li>
+                <li class="tw-cursor-pointer">
+                  <a class="tw-text-white hover:tw-text-orange-700 tw-no-underline">Chính sách bảo hành</a>
+                </li>
+                <li class="tw-cursor-pointer">
+                  <a class="tw-text-white hover:tw-text-orange-700 tw-no-underline">Chính sách đổi trả</a>
+                </li>
+                <li class="tw-cursor-pointer">
+                  <a class="tw-text-white hover:tw-text-orange-700 tw-no-underline">Tư vấn khách hàng</a>
+                </li>
+              </ul>
+            </div>
+            <div class="tw-w-full tw-px-4 lg:tw-w-1/3 md:tw-w-1/2">
+              <h2 class="tw-mb-2 tw-font-bold tw-text-white tw-text-2xl tw-pl-7">
+                Tải ứng dụng trên
+              </h2>
+              <ul class="tw-mb-8 tw-space-y-2 tw-text-sm tw-list-none">
+                    <li>
+                        Ứng dụng Vina Watch hiện có sẵn trên Google Play & App Store. Tải nó ngay.
+                    </li>
+                    <li>
+                    <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/img-googleplay.jpg" alt="">
+                    </li>
+                    <li>
+                    <img src="http://mauweb.monamedia.net/donghohaitrieu/wp-content/uploads/2019/07/img-appstore.jpg" alt="">
+                    </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer> -->
+
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

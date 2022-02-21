@@ -1,0 +1,122 @@
+{
+  "posts": [
+    {
+      "title": "Chiếc đồng hồ của những CEO quyền lực nhất thế giới",
+      "img": "http://placeimg.com/640/480/cats",
+      "desc": "“Chiếc đồng hồ chính là “mũi nhọn” của con tàu phá băng. Tại một thành phố xa lạ, tôi hoàn toàn có thể phá vỡ mọi rào cản khi gặp gỡ bất kỳ ai bằng cụm từ duy nhất – đồng hồ đẹp”, Hamilton Powell, CEO Crown & Caliber, công ty cung cấp thị trường online cho việc mua bán đồng hồ cao cấp cho biết.",
+      "id": "1"
+    },
+    {
+      "title": "10 thương hiệu đồng hồ cao cấp hàng đầu mọi quý ông đều quan tâm, Rolex xếp hạng số 3",
+      "img": "http://placeimg.com/640/480/cats",
+      "desc": "Sự nổi tiếng của những thương hiệu đồng hồ nữ không phải là nhất thời và nó cũng sẽ không xảy ra nếu không có sự xâm nhập của các nhãn hàng thời trang nổi tiếng như Dior hay Chanel. Đồng hồ dành cho nữ giới cũng ngày càng thay đổi và phát triển vững mạnh nhưng nhưng đâu đó vẫn còn lại giá trị, thương hiệu được trân quý.",
+      "id": "2"
+    },
+    {
+      "title": "Chiếc đồng hồ của những CEO quyền lực nhất thế giới",
+      "img": "http://placeimg.com/640/480/cats",
+      "desc": "“Chiếc đồng hồ chính là “mũi nhọn” của con tàu phá băng. Tại một thành phố xa lạ, tôi hoàn toàn có thể phá vỡ mọi rào cản khi gặp gỡ bất kỳ ai bằng cụm từ duy nhất – đồng hồ đẹp”, Hamilton Powell, CEO Crown & Caliber, công ty cung cấp thị trường online cho việc mua bán đồng hồ cao cấp cho biết.",
+      "id": "3"
+    },
+    {
+      "title": "10 thương hiệu đồng hồ cao cấp hàng đầu mọi quý ông đều quan tâm, Rolex xếp hạng số 3",
+      "img": "http://placeimg.com/640/480/cats",
+      "desc": "Sự nổi tiếng của những thương hiệu đồng hồ nữ không phải là nhất thời và nó cũng sẽ không xảy ra nếu không có sự xâm nhập của các nhãn hàng thời trang nổi tiếng như Dior hay Chanel. Đồng hồ dành cho nữ giới cũng ngày càng thay đổi và phát triển vững mạnh nhưng nhưng đâu đó vẫn còn lại giá trị, thương hiệu được trân quý.",
+      "id": "4"
+    }
+  ],
+  "products": [
+    {
+      "id": "2",
+      "name": "Simple 2",
+      "img": "http://placeimg.com/640/480/cats",
+      "price": "15.000.000",
+      "quantity": "60",
+      "desc": "According to the HTML5 specification, the <b> tag should be used as a LAST resort when no other tag is more appropriate. The specification states that headings should be denoted with the <h1> to <h6> tags, emphasized text should be denoted with the <em> tag, important text should be denoted with the <strong> tag, and marked/highlighted text should be denoted with the <mark> tag."
+    },
+    {
+      "id": "3",
+      "name": "Simple 3",
+      "img": "http://placeimg.com/640/480/dogs",
+      "price": "15.000.000",
+      "quantity": "50",
+      "desc": "In drama, where a character speaks to themselves, representing their inner thoughts or feelings and in the process relaying them to the audience (but not to other characters monologue. In drama, where a character speaks their thoughts out loud to share them with the audience and any other characters present. aside. In drama, where a character shares a comment only with the audience for humorous or dramatic effect. This is usually a feeling, thought or piece of additional background information"
+    },
+    {
+      "name": "dung dep trai",
+      "price": "200000",
+      "desc": "quá đẹp trai luon",
+      "quantity": "1",
+      "id": "XNTIazU"
+    },
+    {
+      "name": "dung dep trai",
+      "price": "200000",
+      "desc": "quá đẹp trai luon",
+      "quantity": "1",
+      "id": "OOGTcFD"
+    },
+    {
+      "name": "dung dep trai",
+      "price": "200000",
+      "desc": "quá đẹp trai luon",
+      "quantity": "1",
+      "id": "RUlAoPO"
+    },
+    {
+      "name": "samsung",
+      "price": "500000",
+      "desc": "qsdfre",
+      "quantity": "23",
+      "id": "Y0Z6Zp-"
+    },
+    {
+      "name": "samsung",
+      "price": "500000",
+      "desc": "quá đẹp",
+      "quantity": "34",
+      "id": "n-6jfCi"
+    },
+    {
+      "name": "samsung",
+      "price": "500000",
+      "desc": "quá đẹp",
+      "quantity": "34",
+      "id": "1lOH5gV"
+    },
+    {
+      "name": "ham",
+      "price": "10000",
+      "desc": "dũng sinh",
+      "quantity": "13",
+      "id": "ryegnlD"
+    },
+    {
+      "name": "biza ngon",
+      "price": "23321",
+      "desc": "ngon lắ,m",
+      "quantity": "1",
+      "id": "LVf-jbH"
+    }
+  ],
+  "users": [
+    {
+      "email": "dunglddddddddd@gmail.com",
+      "password": "$2a$10$32lX3HaKtnRv/hLzXCeiOeEfq./9BGkZcVU38NZJ2K.zAFiL6SkRu",
+      "username": "ducdung",
+      "id": 1
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$VPd2hf/cNNlVK.TudnwjPuf7FTSqiXrvG/Uj8Z0Sx.RYMxXY5OjFy",
+      "username": "datlt",
+      "id": 2
+    },
+    {
+      "email": "lunbatbai6@gmail.com",
+      "password": "$2a$10$YgpC8zgKZGvwWKESUw/Ss.cav2TYKpQvrAvDM.VyEvPVZbN0rR3b6",
+      "username": "dung2708",
+      "id": 3
+    }
+  ]
+}

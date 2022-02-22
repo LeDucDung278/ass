@@ -63,7 +63,7 @@ const Header = {
                     <div class="tw-text-right tw-inline-block">
                         <ul class="tw-inline-block tw-mr-3">
                             <li class="tw-inline-block tw-mr-1.5"><a href="#" class="tw-text-black hover:tw-text-orange-700"><i class="fa fa-heart tw-text-xl"></i> <span>1</span></a></li>
-                            <li class="tw-inline-block"><a href="#" class="tw-text-black hover:tw-text-orange-700"><i class="fa fa-shopping-bag tw-text-xl"></i> <span>3</span></a></li>
+                            <li class="tw-inline-block"><a href="/cart" class="tw-text-black hover:tw-text-orange-700"><i class="fa fa-shopping-bag tw-text-xl"></i> <span>3</span></a></li>
                         </ul>
                         <div class="header__cart__price tw-inline-block">Total: <span class="tw-font-semibold">150.000.000</span></div>
                     </div>

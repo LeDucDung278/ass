@@ -23,8 +23,6 @@ const CartPage = {
                     <span class="tw-hidden lg:tw-inline">Số lượng</span>
                   </th>
                   <th class="tw-hidden tw-text-right md:tw-table-cell">Gía</th>
-                  <th></th>
-                  <th></th>
                 </tr>
               </thead>
               <tbody>
@@ -39,7 +37,7 @@ const CartPage = {
                   <td class="tw-justify-center md:tw-justify-end md:tw-flex tw-mt-6">
                     <div class="tw-w-20 tw-h-10">
                       <div class="tw-relative tw-flex tw-flex-row tw-w-full tw-h-8">
-                      <input type="number" value=" ${item.quantity}" 
+                      <input type="number" value="${item.quantity}" 
                         class="tw-w-full tw-font-semibold tw-text-center tw-text-gray-700 tw-bg-gray-200 tw-outline-none focus:tw-outline-none hover:tw-text-black focus:tw-text-black" />
                       </div>
                     </div>
@@ -49,13 +47,7 @@ const CartPage = {
                       ${item.price}
                     </span>
                   </td>
-                  <td>
-                    <button data-id="${item.id}" class="btn btn-increase">Tăng</button>
-                    <button data-id="${item.id}" class="btn btn-decrease">Giảm</button>
-                  </td>
-                  <td>
-                      <button data-id="${item.id}" class="btn btn-remove">Xóa</button>
-                  </td>
+                  
                 </tr> 
                 `).join("")}
               </tbody>

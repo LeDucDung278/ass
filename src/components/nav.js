@@ -11,10 +11,10 @@ const NavMenu = {
                         <a href="/gioi-thieu" class="tw-uppercase tw-block tw-p-3 tw-text-white dark:tw-border-gray-700 hover:tw-bg-white hover:tw-text-orange-700 tw-no-underline">GIỚI THIỆU</a>
                         </li>
                         <li>
-                        <a href="/dong-ho-nam" class="tw-uppercase tw-block tw-p-3 tw-text-white dark:tw-border-gray-700 hover:tw-bg-white hover:tw-text-orange-700 tw-no-underline">đồng hồ nam</a>
+                        <a href="" class="tw-uppercase tw-block tw-p-3 tw-text-white dark:tw-border-gray-700 hover:tw-bg-white hover:tw-text-orange-700 tw-no-underline">đồng hồ nam</a>
                         </li>
                         <li>
-                        <a href="/dong-ho-nu" class="tw-uppercase tw-block tw-p-3 tw-text-white dark:tw-border-gray-700 hover:tw-bg-white hover:tw-text-orange-700 tw-no-underline">đồng hồ nữ</a>
+                        <a href="" class="tw-uppercase tw-block tw-p-3 tw-text-white dark:tw-border-gray-700 hover:tw-bg-white hover:tw-text-orange-700 tw-no-underline">đồng hồ nữ</a>
                         </li>
                         <li>
                         <a href="/blogs" class="tw-uppercase tw-block tw-p-3 tw-text-white dark:tw-border-gray-700 hover:tw-bg-white hover:tw-text-orange-700 tw-no-underline">Blog</a>

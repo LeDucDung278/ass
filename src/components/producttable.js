@@ -6,6 +6,7 @@ const ProTable = {
         const { data } = await getAll();
         return /* html */ `
             <div class="tw-bg-white tw-shadow-md tw-rounded tw-mt-3" id="content">
+            <a href="/admin/product/add">Thêm mới</a>
                     <table class="tw-min-w-max tw-w-full tw-table-auto">
                         <thead>
                             <tr class="tw-bg-gray-200 tw-text-gray-600 tw-uppercase tw-text-sm tw-leading-normal">

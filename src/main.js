@@ -33,14 +33,6 @@ router.on({
         print(GioiThieu);
     },
 
-    "/dong-ho-nam": () => {
-        console.log("donghonam");
-    },
-
-    "/dong-ho-nu": () => {
-        console.log("donghonu");
-    },
-
     "/blogs": () => {
         print(Blog);
     },

@@ -7,7 +7,7 @@ const Recome = {
                     <div class="container">
                         <div class="tw-relative tw-flex tw-flex-col tw-min-w-0 tw-break-words tw-w-full">
                             <div class="tw-flex-auto tw-p-5 lg:tw-p-10">
-                                <img src="./src/img/about-us_bg.jpg" alt="contact image">
+                                <img src="https://res.cloudinary.com/dfwailscz/image/upload/v1645564082/dung/about-us_bg_kipncu.jpg" alt="contact image">
                             </div>
                         </div>
                     </div>

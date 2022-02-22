@@ -14,5 +14,8 @@ const Home = {
             ${Footer.render()}
         `;
     },
+    afterRender() {
+        Header.afterRender();
+    },
 };
 export default Home;

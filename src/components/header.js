@@ -27,7 +27,17 @@ const Header = {
                         </ul>
                     </div>
                     <div class="header_top_right_auth tw-inline-block tw-mr-7">
-                        <a href="/signin" class="hover:tw-text-black tw-text-black tw-no-underline"><i class="fa fa-user tw-mr-2 hover:tw-text-orange-700"></i>Đăng nhập</a>
+                        ${localStorage.getItem("user") ? `
+                            <a href="/signin" class="hover:tw-text-black tw-text-black tw-no-underline">
+                                <i class="fa fa-user tw-mr-2 hover:tw-text-orange-700"></i>
+                                <span id="accountInfo"></span>
+                            </a>
+                        ` : `
+                            <a href="/signin" class="hover:tw-text-black tw-text-black tw-no-underline">
+                                <i class="fa fa-user tw-mr-2 hover:tw-text-orange-700"></i>
+                                Đăng Nhập
+                            </a>`}
+                        
                     </div>
                 </div>
             </div>
@@ -61,6 +71,14 @@ const Header = {
             </div>
         </header>
         `;
+    },
+    afterRender() {
+        console.log(1);
+        console.log(JSON.parse(localStorage.getItem("user")));
+
+        // lấy thông tin username từ localStorage và hiển thị ra ngoài
+        const { username } = JSON.parse(localStorage.getItem("user"));
+        document.querySelector("#accountInfo").innerHTML = username;
     },
 };
 

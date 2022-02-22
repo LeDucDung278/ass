@@ -27,12 +27,12 @@
   ],
   "products": [
     {
-      "id": "2",
-      "name": "Simple 2",
-      "img": "",
-      "price": "15.000.000",
-      "quantity": "60",
-      "desc": "According to the HTML5 specification, the <b> tag should be used as a LAST resort when no other tag is more appropriate. The specification states that headings should be denoted with the <h1> to <h6> tags, emphasized text should be denoted with the <em> tag, important text should be denoted with the <strong> tag, and marked/highlighted text should be denoted with the <mark> tag."
+      "name": "ORIENT RA-AG0001S10B",
+      "img": "http://res.cloudinary.com/dfwailscz/image/upload/v1645556838/dung/bpuxbgquelpi1epcilyo.jpg",
+      "price": "8090000",
+      "desc": "Vẻ ngoài quý ông lịch lãm với mẫu Orient RA-AG0001S10B với thiết kế máy cơ lộ tim độc đáo trên mặt số trắng size 40mm cùng kiểu dáng 3 kim đơn giản.",
+      "quantity": "10",
+      "id": 1
     }
   ],
   "users": [

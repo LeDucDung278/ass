@@ -15,6 +15,7 @@ import ListUser from "./pages/admin/users/list";
 import AddPost from "./pages/admin/posts/add";
 import EditProduct from "./pages/admin/products/edit";
 import AddProduct from "./pages/admin/products/add";
+import CartPage from "./pages/cart";
 
 const router = new Navigo("/", { linksSelector: "a" });
 
@@ -89,6 +90,10 @@ router.on({
 
     "/admin/product/add": () => {
         print(AddProduct);
+    },
+
+    "/cart": () => {
+        print(CartPage);
     },
 
 });

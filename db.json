@@ -42,7 +42,6 @@
       "quantity": "50",
       "desc": "In drama, where a character speaks to themselves, representing their inner thoughts or feelings and in the process relaying them to the audience (but not to other characters monologue. In drama, where a character speaks their thoughts out loud to share them with the audience and any other characters present. aside. In drama, where a character shares a comment only with the audience for humorous or dramatic effect. This is usually a feeling, thought or piece of additional background information"
     },
-    
     {
       "name": "samsung",
       "price": "500000",
@@ -81,22 +80,16 @@
   ],
   "users": [
     {
-      "email": "dunglddddddddd@gmail.com",
-      "password": "$2a$10$32lX3HaKtnRv/hLzXCeiOeEfq./9BGkZcVU38NZJ2K.zAFiL6SkRu",
-      "username": "ducdung",
+      "email": "admin@gmail.com",
+      "password": "$2a$10$cTXs5fql6Zkj9k0HqMl9ceyS6r7dmjJFRBaqjlP6n2FpVFmdtDln.",
+      "username": "Admin",
       "id": 1
     },
     {
-      "email": "admin@gmail.com",
-      "password": "$2a$10$VPd2hf/cNNlVK.TudnwjPuf7FTSqiXrvG/Uj8Z0Sx.RYMxXY5OjFy",
-      "username": "datlt",
+      "email": "dung@gmail.com",
+      "password": "$2a$10$76iZrCe.ALC0QMa3utGGau7Ftw5nekfE3tZYlmeH0CP3Gc7UhUTg.",
+      "username": "Đức Dũng",
       "id": 2
-    },
-    {
-      "email": "lunbatbai6@gmail.com",
-      "password": "$2a$10$YgpC8zgKZGvwWKESUw/Ss.cav2TYKpQvrAvDM.VyEvPVZbN0rR3b6",
-      "username": "dung2708",
-      "id": 3
     }
   ]
 }

@@ -35,12 +35,21 @@ const SignIn = {
     },
     afterRender() {
         const formSignin = document.querySelector("#form-sign-in");
-        formSignin.addEventListener("submit", (e) => {
+        formSignin.addEventListener("submit", async (e) => {
             e.preventDefault();
-            signin({
+            // call API Login
+            const { data } = await signin({
                 email: document.querySelector("#email").value,
                 password: document.querySelector("#password").value,
             });
+            // Lưu dữ liệu vào LocalStorage
+            localStorage.setItem("user", JSON.stringify(data.user));
+            // Kiểm tra quyền dựa vào id
+            if (data.user.id === 1) {
+                document.location.href = "/admin/dashboard";
+            } else {
+                document.location.href = "/#/";
+            }
         });
     },
 

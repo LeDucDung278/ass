@@ -1,4 +1,5 @@
 // import axios from "axios";
+import axios from "axios";
 import { add } from "../../../api/product";
 import formAdd from "../../../components/addpro";
 
@@ -90,26 +91,31 @@ const AddProduct = {
         `;
     },
     afterRender() {
-        console.log(document.querySelector("#form-add-pro"));
         const formAddPro = document.querySelector("#form-add-pro");
-        formAddPro.addEventListener("submit", (e) => {
+        const CLOUDINARY_API = "https://api.cloudinary.com/v1_1/dfwailscz/image/upload";
+        const CLOUDINARY_PRESET = "assignment";
+
+        formAddPro.addEventListener("submit", async (e) => {
             e.preventDefault();
+
+            const file = document.querySelector("#img").files[0];
+
+            const formData = new FormData();
+            formData.append("file", file);
+            formData.append("upload_preset", CLOUDINARY_PRESET);
+
+            const { data } = await axios.post(CLOUDINARY_API, formData, {
+                headers: {
+                    "Content-Type": "application/form-data",
+                },
+            });
             add({
                 name: document.querySelector("#name").value,
+                image: data.url,
                 price: document.querySelector("#price").value,
                 desc: document.querySelector("#desc").value,
                 quantity: document.querySelector("#quantity").value,
             });
-            // axios.post("http://localhost:3333/products", pro);
-
-            // fetch("http://localhost:3333/products", {
-            //     method: "POST",
-            //     headers: {
-            //         "Content-Type": "application/json",
-            //         // 'Content-Type': 'application/x-www-form-urlencoded',
-            //     },
-            //     body: JSON.stringify(pro),
-            // });
         });
     },
 };

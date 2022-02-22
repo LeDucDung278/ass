@@ -9,13 +9,13 @@ const Banner = {
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./src/img/banner1.jpg" class="d-block w-100" alt="...">
+                        <img src="https://res.cloudinary.com/dfwailscz/image/upload/v1645565648/dung/banner2_n5cgpa.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./src/img/banner2.jpg" class="d-block w-100" alt="...">
+                        <img src="https://res.cloudinary.com/dfwailscz/image/upload/v1645565648/dung/banner3_vity2h.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="./src/img/banner3.jpg" class="d-block w-100" alt="...">
+                        <img src="https://res.cloudinary.com/dfwailscz/image/upload/v1645565648/dung/banner1_in9hnz.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
             </div> 

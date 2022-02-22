@@ -1,3 +1,5 @@
+import { signin } from "../api/user";
+
 const SignIn = {
     render() {
         return /* html */ `
@@ -31,5 +33,16 @@ const SignIn = {
         </div>
         `;
     },
+    afterRender() {
+        const formSignin = document.querySelector("#form-sign-in");
+        formSignin.addEventListener("submit", (e) => {
+            e.preventDefault();
+            signin({
+                email: document.querySelector("#email").value,
+                password: document.querySelector("#password").value,
+            });
+        });
+    },
+
 };
 export default SignIn;

@@ -1,3 +1,5 @@
+import { signup } from "../api/user";
+
 const SignUp = {
     render() {
         return /* html */ `
@@ -31,6 +33,17 @@ const SignUp = {
         </div>
     </div>
         `;
+    },
+    afterRender() {
+        const formSignup = document.querySelector("#form-sign-up");
+        formSignup.addEventListener("submit", (e) => {
+            e.preventDefault();
+            signup({
+                username: document.querySelector("#username").value,
+                email: document.querySelector("#email").value,
+                password: document.querySelector("#password").value,
+            });
+        });
     },
 
 };

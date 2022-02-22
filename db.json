@@ -29,18 +29,10 @@
     {
       "id": "2",
       "name": "Simple 2",
-      "img": "http://placeimg.com/640/480/cats",
+      "img": "",
       "price": "15.000.000",
       "quantity": "60",
       "desc": "According to the HTML5 specification, the <b> tag should be used as a LAST resort when no other tag is more appropriate. The specification states that headings should be denoted with the <h1> to <h6> tags, emphasized text should be denoted with the <em> tag, important text should be denoted with the <strong> tag, and marked/highlighted text should be denoted with the <mark> tag."
-    },
-    {
-      "id": "3",
-      "name": "Simple 3",
-      "img": "http://placeimg.com/640/480/dogs",
-      "price": "15.000.000",
-      "quantity": "50",
-      "desc": "In drama, where a character speaks to themselves, representing their inner thoughts or feelings and in the process relaying them to the audience (but not to other characters monologue. In drama, where a character speaks their thoughts out loud to share them with the audience and any other characters present. aside. In drama, where a character shares a comment only with the audience for humorous or dramatic effect. This is usually a feeling, thought or piece of additional background information"
     }
   ],
   "users": [

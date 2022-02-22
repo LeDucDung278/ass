@@ -2,6 +2,8 @@
 import axios from "axios";
 import { add } from "../../../api/product";
 import formAdd from "../../../components/addpro";
+import { reRender } from "../../../ultils";
+import ListProduct from "./list";
 
 const AddProduct = {
 
@@ -97,25 +99,29 @@ const AddProduct = {
 
         formAddPro.addEventListener("submit", async (e) => {
             e.preventDefault();
-
+            // lấy giá trị input file
             const file = document.querySelector("#img").files[0];
-
+            // tạo object và gán giá trị vào các thuộc tính formData
             const formData = new FormData();
             formData.append("file", file);
             formData.append("upload_preset", CLOUDINARY_PRESET);
 
+            // call API clouddinary để đẩy ảnh lên
             const { data } = await axios.post(CLOUDINARY_API, formData, {
                 headers: {
                     "Content-Type": "application/form-data",
                 },
             });
+            // call API thêm bài viết
             add({
                 name: document.querySelector("#name").value,
-                image: data.url,
+                img: data.url,
                 price: document.querySelector("#price").value,
                 desc: document.querySelector("#desc").value,
                 quantity: document.querySelector("#quantity").value,
             });
+            window.location.href = "/admin/product";
+            reRender(ListProduct, "#content");
         });
     },
 };

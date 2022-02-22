@@ -1,5 +1,8 @@
+import toastr from "toastr";
+import "toastr/build/toastr.min.css";
 import { del } from "../../../api/product";
 import ProTable from "../../../components/producttable";
+import { reRender } from "../../../ultils";
 
 const ListProduct = {
     async render() {
@@ -78,7 +81,7 @@ const ListProduct = {
                 <!--/Sidebar-->
                 <!--Main-->
                 <main class="bg-white-300 tw-flex-1 tw-p-3 tw-overflow-hidden">
-                    <div class="tw-flex tw-flex-col">
+                    <div class="tw-flex tw-flex-col" id= "content">
                         ${await ProTable.render()}
                     </div>
                 </main>
@@ -95,8 +98,9 @@ const ListProduct = {
                 const confirm = window.confirm("Bạn có muốn xóa không");
                 if (confirm) {
                     del(id).then(() => {
-                        console.log("đã xóa nhé");
+                        toastr.success("bạn Đã xóa thành công");
                     });
+                    reRender(ProTable, "#content");
                 }
             });
         });

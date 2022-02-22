@@ -13,8 +13,8 @@ import ListPost from "./pages/admin/posts/list";
 import ListProduct from "./pages/admin/products/list";
 import ListUser from "./pages/admin/users/list";
 import AddPost from "./pages/admin/posts/add";
-import AddProduct from "./pages/admin/products/add";
 import EditProduct from "./pages/admin/products/edit";
+import AddProduct from "./pages/admin/products/add";
 
 const router = new Navigo("/", { linksSelector: "a" });
 
